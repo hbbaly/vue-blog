@@ -9,7 +9,7 @@
 ``` bash
 cd server
 npm i
-npm start (启动服务端)
+pm2 start pm2.json (启动服务端)
 ```
 
 ## Build Setup

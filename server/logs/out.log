@@ -1,0 +1,260 @@
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+[PM2] Applying action restartProcessId on app [vueBlog](ids: 1)
+[PM2] [vueBlog](1) ✓
+[PM2] Process successfully started
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97759 │ online │ 0       │ 0s     │ 0%  │ 44.2 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 0s     │ 0%  │ 8.8 MB    │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97769 │ online │ 1       │ 0s     │ 0%  │ 44.2 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 0s     │ 0%  │ 51.7 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97789 │ online │ 2       │ 0s     │ 0%  │ 44.1 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 5s     │ 0%  │ 52.0 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97801 │ online │ 3       │ 0s     │ 0%  │ 44.3 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 11s    │ 0%  │ 43.6 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97813 │ online │ 4       │ 0s     │ 0%  │ 44.3 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 16s    │ 0%  │ 43.7 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97825 │ online │ 5       │ 0s     │ 0%  │ 44.2 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 21s    │ 0%  │ 43.8 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97847 │ online │ 6       │ 0s     │ 0%  │ 44.2 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 26s    │ 0%  │ 43.9 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97864 │ online │ 7       │ 0s     │ 0%  │ 44.3 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 31s    │ 0%  │ 44.0 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97877 │ online │ 8       │ 0s     │ 0%  │ 44.2 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 36s    │ 0%  │ 44.1 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'
+
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬─────────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user        │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼─────────────┼──────────┤
+│ vue-blog │ 2  │ N/A     │ fork │ 97889 │ online │ 9       │ 0s     │ 0%  │ 44.2 MB   │ hanbingbing │ enabled  │
+│ vueBlog  │ 1  │ 1.0.0   │ fork │ 97765 │ online │ 15      │ 41s    │ 0%  │ 44.2 MB   │ hanbingbing │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009

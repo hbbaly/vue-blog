@@ -1,0 +1,337 @@
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_53_44_982Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_53_50_096Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_53_55_275Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_00_403Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_05_508Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_10_703Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_15_875Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_21_046Z-debug.log
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_26_167Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_42_546Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_47_504Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_52_633Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_57_825Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_02_951Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_08_054Z-debug.log
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3009
+    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
+    at listenInCluster (net.js:1325:12)
+    at Server.listen (net.js:1412:7)
+    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1304:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_13_181Z-debug.log
