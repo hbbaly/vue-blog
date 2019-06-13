@@ -335,3 +335,38 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_13_181Z-debug.log
+Unhandled rejection Error: ($: undefined) ✖ (type: object)
+    at throwError (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:223:13)
+    at validateType (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:163:7)
+    at iterator (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:117:7)
+    at _validateObject (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:108:11)
+    at _Schema.validate (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:38:10)
+    at formatCreate (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/schema.js:186:25)
+    at docs.forEach.doc (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/schema.js:93:27)
+    at Array.forEach (<anonymous>)
+    at Query.beforeInsert (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/schema.js:93:12)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:146:44
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_co@4.6.0@co/index.js:54:5
+    at new Promise (<anonymous>)
+    at co (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_co@4.6.0@co/index.js:50:10)
+    at Query.execBeforePlugins (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:142:10)
+----- Mongolass error stack -----
+Error
+    at Model.insert (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
+    at Object.setBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:11:23)
+    at router.post (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:17:7)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)

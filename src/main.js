@@ -3,8 +3,11 @@
 import Vue from 'vue'
 
 import App from './App'
-
+// 引用element
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
+Vue.use(ElementUI);
 // import store from './store'
 /* eslint-disable no-new */
 new Vue({

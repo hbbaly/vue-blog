@@ -10,4 +10,11 @@ exports.Article = mongolass.model('col',{
  by: {type: 'string'},
  likes:{type:'number'}
 })
-exports.Article.index({_id:1}).exec();
+// exports.Article.index({_id:1}).exec();
+exports.SetBannerList = mongolass.model('banner', {
+  title: {type: 'string'},
+  description: {type: 'string'},
+  url: {type: 'string'},
+  img: {type: 'string'},
+})
+// 获取banner
