@@ -1,17 +1,16 @@
 # vue2-shop
 
-> A shop developed with Vue2 + Vue-router + Axios + Vuex + Node + Express + MongoDB + Webpack
-> http://gupaoshop.songfens.club/
+>Vue2 + Vue-router + Axios + Vuex + Node + Express + MongoDB + Webpack搭建blog
 
 ## Run Setup
 
 注意：先启动MongoDB
 
 ``` bash
-# cd server
-# npm i (商城服务端依赖安装)
-# npm start (启动服务端)
-
+cd server
+npm i
+npm start (启动服务端)
+```
 
 ## Build Setup
 
