@@ -17,4 +17,8 @@ exports.SetBannerList = mongolass.model('banner', {
   url: {type: 'string'},
   img: {type: 'string'},
 })
-// 获取banner
+// 用户集合
+exports.User = mongolass.model('User',{
+  name: {type: 'string'},
+  password:{type:'string'}
+})

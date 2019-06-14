@@ -26012,3 +26012,113 @@ IncomingMessage {
      path: '/set/banner',
      stack: [ [Layer] ],
      methods: { post: true } } }
+Unhandled rejection MongoError: Topology was destroyed
+    at nextFunction (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:692:3)
+    at fetchDocs (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:856:10)
+    at toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:883:3)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:840:5
+    at new Promise (<anonymous>)
+    at Cursor.toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:839:10)
+    at Promise.resolve.then.then.then.conn (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:72:24)
+    at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:699:18)
+    at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
+    at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
+----- Mongolass error stack -----
+Error
+    at Model.find (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
+    at Object.getBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:14:26)
+    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:26:7)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+Unhandled rejection MongoError: Topology was destroyed
+    at nextFunction (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:692:3)
+    at fetchDocs (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:856:10)
+    at toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:883:3)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:840:5
+    at new Promise (<anonymous>)
+    at Cursor.toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:839:10)
+    at Promise.resolve.then.then.then.conn (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:72:24)
+    at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:699:18)
+    at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
+    at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
+----- Mongolass error stack -----
+Error
+    at Model.find (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
+    at Object.getBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:14:26)
+    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:26:7)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+Unhandled rejection MongoError: Topology was destroyed
+    at nextFunction (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:692:3)
+    at fetchDocs (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:856:10)
+    at toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:883:3)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:840:5
+    at new Promise (<anonymous>)
+    at Cursor.toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:839:10)
+    at Promise.resolve.then.then.then.conn (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:72:24)
+    at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:699:18)
+    at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
+    at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
+----- Mongolass error stack -----
+Error
+    at Model.find (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
+    at Object.getBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:14:26)
+    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:26:7)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009

@@ -1,4 +1,4 @@
- const {Article, SetBannerList, GetBannerList} = require('../lib/mongo')
+ const {Article, SetBannerList, User} = require('../lib/mongo')
  
  module.exports = {
   // 根据classify获取所有文章
@@ -12,5 +12,8 @@
   },
   getBanner: (params) => {
     return SetBannerList.find().exec()
+  },
+  registerUser: (params) => {
+    return User.create(params).exec()
   }
  }

@@ -13,7 +13,6 @@ router.get('/get/topics', (req, res) => {
 // 设置banner
 router.post('/set/banner', (req, res, next) => {
   const data = req.body
-  console.log(req)
   api.setBanner(data).then(response => {
     res.send({
       code: 200,

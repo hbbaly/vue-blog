@@ -3,6 +3,7 @@ const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
 const index = require('./routes/index')
+const register = require('./routes/register.js')
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // 跨域
@@ -13,6 +14,7 @@ app.all('*', function(req, res, next) {
     next();
 });
 app.use('/api', index)
+app.use('/api', register)
 app.set('port', process.env.PORT || 3009);
 app.listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));
