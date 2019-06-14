@@ -1,112 +1,17 @@
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_53_44_982Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_53_50_096Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_53_55_275Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_00_403Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_05_508Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_10_703Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_15_875Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_21_046Z-debug.log
-[PM2][ERROR] Script already launched, add -f option to force re-execution
-npm ERR! code ELIFECYCLE
-npm ERR! errno 1
-npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production pm2 start app.js --node-args='--harmony' --name 'vueBlog'`
-npm ERR! Exit status 1
-npm ERR! 
-npm ERR! Failed at the server@1.0.0 start script.
-npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
-
-npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_26_167Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
-
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -114,13 +19,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -130,17 +28,21 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_42_546Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_27_48_370Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -148,13 +50,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -164,17 +59,21 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_47_504Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_27_52_912Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -182,13 +81,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -198,17 +90,21 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_52_633Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_27_58_048Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -216,13 +112,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -232,17 +121,21 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_54_57_825Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_03_215Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -250,13 +143,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -266,17 +152,21 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_02_951Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_08_351Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -284,13 +174,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -300,17 +183,21 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_08_054Z-debug.log
-events.js:174
-      throw er; // Unhandled 'error' event
-      ^
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_13_634Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
 
-Error: listen EADDRINUSE: address already in use :::3009
-    at Server.setupListenHandle [as _listen2] (net.js:1277:14)
-    at listenInCluster (net.js:1325:12)
-    at Server.listen (net.js:1412:7)
-    at Function.listen (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/application.js:618:24)
-    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:17:5)
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -318,13 +205,6 @@ Error: listen EADDRINUSE: address already in use :::3009
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
-Emitted 'error' event at:
-    at emitErrorNT (net.js:1304:8)
-    at process._tickCallback (internal/process/next_tick.js:63:19)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
-    at startup (internal/bootstrap/node.js:283:19)
-    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
 npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
@@ -334,51 +214,414 @@ npm ERR! Failed at the server@1.0.0 start script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-13T05_55_13_181Z-debug.log
-Unhandled rejection Error: ($: undefined) ✖ (type: object)
-    at throwError (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:223:13)
-    at validateType (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:163:7)
-    at iterator (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:117:7)
-    at _validateObject (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:108:11)
-    at _Schema.validate (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_another-json-schema@2.1.0@another-json-schema/index.js:38:10)
-    at formatCreate (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/schema.js:186:25)
-    at docs.forEach.doc (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/schema.js:93:27)
-    at Array.forEach (<anonymous>)
-    at Query.beforeInsert (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/schema.js:93:12)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:146:44
-    at Generator.next (<anonymous>)
-    at onFulfilled (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_co@4.6.0@co/index.js:65:19)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_co@4.6.0@co/index.js:54:5
-    at new Promise (<anonymous>)
-    at co (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_co@4.6.0@co/index.js:50:10)
-    at Query.execBeforePlugins (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:142:10)
------ Mongolass error stack -----
-Error
-    at Model.insert (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
-    at Object.setBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:11:23)
-    at router.post (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:17:7)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
-    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
-    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-Unhandled rejection MongoError: Topology was destroyed
-    at nextFunction (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:540:25)
-    at Cursor.next [as _next] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:692:3)
-    at fetchDocs (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:856:10)
-    at toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:883:3)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:840:5
-    at new Promise (<anonymous>)
-    at Cursor.toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:839:10)
-    at Promise.resolve.then.then.then.conn (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:72:24)
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_18_639Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_23_841Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_28_940Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_34_062Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_39_232Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_44_312Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_49_506Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_54_604Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_28_59_762Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_29_04_880Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_29_10_042Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_29_15_191Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_29_20_344Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4
+router.get('/user', checkToekn, (req, res, next) => {
+                    ^
+
+ReferenceError: checkToekn is not defined
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/user.js:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:8:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_29_25_450Z-debug.log
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hanbingbing/Desktop/sites/vue-blog/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/sign.js:107:20)
+    at createToken (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/token.js:5:23)
+    at api.getUserLogin.then.response (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:21:25)
     at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
     at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
     at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
@@ -387,33 +630,14 @@ Unhandled rejection MongoError: Topology was destroyed
     at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
     at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
     at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
------ Mongolass error stack -----
-Error
-    at Model.find (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
-    at Object.getBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:14:26)
-    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:26:7)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
-    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
-    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-Unhandled rejection MongoError: Topology was destroyed
-    at nextFunction (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:540:25)
-    at Cursor.next [as _next] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:692:3)
-    at fetchDocs (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:856:10)
-    at toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:883:3)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:840:5
-    at new Promise (<anonymous>)
-    at Cursor.toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:839:10)
-    at Promise.resolve.then.then.then.conn (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:72:24)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hanbingbing/Desktop/sites/vue-blog/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/sign.js:107:20)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/createToken.js:5:23)
+    at api.getUserLogin.then.response (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:21:25)
     at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
     at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
     at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
@@ -422,33 +646,14 @@ Unhandled rejection MongoError: Topology was destroyed
     at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
     at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
     at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
------ Mongolass error stack -----
-Error
-    at Model.find (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
-    at Object.getBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:14:26)
-    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:26:7)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
-    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
-    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-Unhandled rejection MongoError: Topology was destroyed
-    at nextFunction (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:540:25)
-    at Cursor.next [as _next] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb-core@2.1.9@mongodb-core/lib/cursor.js:692:3)
-    at fetchDocs (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:856:10)
-    at toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:883:3)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:840:5
-    at new Promise (<anonymous>)
-    at Cursor.toArray (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongodb@2.2.25@mongodb/lib/cursor.js:839:10)
-    at Promise.resolve.then.then.then.conn (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:72:24)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/sign.js:107:20)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/createToken.js:5:23)
+    at api.getUserLogin.then.response (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:21:25)
     at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
     at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
     at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
@@ -457,21 +662,953 @@ Unhandled rejection MongoError: Topology was destroyed
     at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
     at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
     at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
------ Mongolass error stack -----
-Error
-    at Model.find (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mongolass@2.4.5@mongolass/lib/query.js:108:16)
-    at Object.getBanner (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:14:26)
-    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:26:7)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
-    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
-    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
-    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
-    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
-    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
-    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
-    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/sign.js:107:20)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/createToken.js:6:23)
+    at api.getUserLogin.then.response (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:21:25)
+    at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:699:18)
+    at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
+    at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_50_41_344Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_50_46_064Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_50_51_109Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_50_56_227Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_01_377Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_06_485Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_11_631Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_16_763Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_21_910Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_27_065Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_32_189Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_37_415Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_42_451Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_47_660Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_52_735Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_51_57_924Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_03_031Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_08_241Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_13_345Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_18_469Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_23_647Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_28_805Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_33_909Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_39_036Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_44_177Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_49_361Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_54_464Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_52_59_639Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_53_04_786Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1
+(function (exports, require, module, __filename, __dirname) { require('dotenv').load();
+                                                                                ^
+
+TypeError: require(...).load is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/login.js:1:81)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:7:15)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-14T15_53_09_990Z-debug.log

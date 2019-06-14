@@ -12,7 +12,9 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "cross-env": "^5.2.0",
+    "dotenv": "^8.0.0",
     "express": "^4.15.2",
+    "jsonwebtoken": "^8.5.1",
     "mongolass": "^2.4.5",
     "sha1": "^1.1.1"
   }

@@ -15,5 +15,9 @@
   },
   registerUser: (params) => {
     return User.create(params).exec()
+  },
+  getUserLogin: (params) => {
+    const {name} = params
+    return User.find({name}).exec()
   }
  }
