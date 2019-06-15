@@ -1,4 +1,5 @@
 // 验证token中间件
+const jwt = require('jsonwebtoken')
 module.exports = function (req, res, next) {
   if(req.headers['authorization']){
     const token = req.headers['authorization'].split(' ')[1]

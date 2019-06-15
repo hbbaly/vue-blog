@@ -13,13 +13,13 @@ router.post('/user/login', (req, res, next) => {
       }
 
   api.getUserLogin(user).then(response => {
-    if (response[0].password === encodePassword) {
+    if (response && response.length > 0 && response[0].password === encodePassword) {
       res.send({
         // 登陆成功
         code:200,
         message: '登陆成功',
         data: {
-          access_token: createToken(name),
+          token: createToken(name),
           name: name
         }
       })

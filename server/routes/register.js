@@ -18,7 +18,7 @@ router.post('/user/register', (req, res, next) => {
       code:200,
       message: 'ok',
       data: {
-        access_token: createToken(name)
+        token: createToken(name)
       }
     })
   }).catch(err => {

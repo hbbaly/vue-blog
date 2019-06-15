@@ -4,10 +4,10 @@
   </div>
 </template>
 <script>
-import axios from 'axios'
+import Http from '@/utils/http'
 export default {
   mounted () {
-    axios.get('/api/user/info').then(res => {
+    Http.post('/api/user/info',{}, true).then(res => {
       
     })
   }

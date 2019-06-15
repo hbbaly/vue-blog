@@ -32,6 +32,8 @@
 </template>
 <script>
 import axios from 'axios'
+import store from '@/utils/store'
+import Http from '@/utils/http'
 export default {
   name: "Login",
   data() {
@@ -80,8 +82,10 @@ export default {
               name: this.ruleForm.name,
               password: this.ruleForm.pass
             }
-            axios.post('/api/user/login', data).then(res => {
+            Http.post('/api/user/login', data).then(res => {
               this.open(res.data.message)
+              console.log(res)
+              store.saveWithKey('localStorage', 'token', res.data.data.token)
               if (res.data.code === 200) {
                 this.$router.push({
                   path: '/user',
