@@ -4,8 +4,8 @@ const checkToken = require('../utils/checkToken')
 const api = require('../api/index')
 router.post('/create/article', checkToken, (req, res, next) => {
 
-  api.createArticle(req.body).then(({res: {ok,n}}) => {
-    if (ok && n > 0){
+  api.createArticle(req.body).then(response => {
+    if (response.result.ok && response.result.n > 0){
       res.send({
         code: 200,
         message: '发布成功'

@@ -3,13 +3,12 @@ var mongolass = new Mongolass();
 mongolass.connect('mongodb://localhost:27017/test');
 
 // 文章
-exports.Article = mongolass.model('col',{
+exports.Article = mongolass.model('article',{
  title: {type: 'string'},
  description: {type: 'string'},
  type: {type: 'string'},
  contentToMark: {type: 'string'},
 })
-// exports.Article.index({_id:1}).exec();
 exports.SetBannerList = mongolass.model('banner', {
   title: {type: 'string'},
   description: {type: 'string'},
