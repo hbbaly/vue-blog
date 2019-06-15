@@ -96,13 +96,12 @@ export default {
 
       this.$refs.articleCreate.validate(valid=>{
           if(valid){
-            this.showMessage({content:"是否创建改文章"}).then(async res => {
+            this.showMessage({content:"是否创建改文章"}).then(res => {
               console.log(res)
               NProgress.start()
               this.load = true
               this.btnText = "更新中"
-              await this.createArticle()
-              this.btnText = "立刻更新"
+              this.createArticle()
             })
           }
       })
@@ -116,6 +115,7 @@ export default {
         ...this.article
       }
       await Http.post('/api/create/article', data, true).then(res => {
+        this.btnText = "立刻更新"
         if (res.data.code === 200) {
           this.$message({
             showClose: true,

@@ -1,8 +1,8 @@
-import Index from '@/view/index/indexView'
+import Index from '@/view/index/IndexView'
 import Register from '@/view/user/register/IndexView'
 import Login from '@/view/user/login/IndexView'
-import User from '@/view/user/index/indexView'
-import Article from '@/view/article/index/indexView'
+import User from '@/view/user/index/IndexView'
+import CreateArticle from '@/view/user/article/create/IndexView'
 export default [
   {
     path:'/',
@@ -10,7 +10,13 @@ export default [
   },
   {
     path: '/user',
-    component: User
+    component: User,
+    children: [
+      {
+        path: '/article/create',
+        component:CreateArticle
+      }
+    ]
   },
   {
     path: '/user/register',
@@ -19,9 +25,5 @@ export default [
   {
     path: '/user/login',
     component: Login
-  },
-  {
-    path: '/article/create',
-    component: Article
   }
 ]
