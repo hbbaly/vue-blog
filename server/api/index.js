@@ -19,5 +19,8 @@
   getUserLogin: (params) => {
     const {name} = params
     return User.find({name}).exec()
+  },
+  createArticle: (params) => {
+    return Article.create(params).exec()
   }
  }

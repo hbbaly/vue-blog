@@ -6,9 +6,8 @@ mongolass.connect('mongodb://localhost:27017/test');
 exports.Article = mongolass.model('col',{
  title: {type: 'string'},
  description: {type: 'string'},
- url: {type: 'string'},
- by: {type: 'string'},
- likes:{type:'number'}
+ type: {type: 'string'},
+ contentToMark: {type: 'string'},
 })
 // exports.Article.index({_id:1}).exec();
 exports.SetBannerList = mongolass.model('banner', {
