@@ -1,4 +1,4 @@
-# vue2-shop
+# vue-blog
 
 >Vue2 + Vue-router + Axios + Vuex + Node + Express + MongoDB + Webpack搭建blog
 
