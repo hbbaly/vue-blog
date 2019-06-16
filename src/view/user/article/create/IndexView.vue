@@ -69,7 +69,8 @@ export default {
       },
       load:false,
       btnText:"立即更新",
-      listLoading:false
+      listLoading:false,
+      isEdit: false
     }
   },
   computed: {
@@ -84,30 +85,70 @@ export default {
       return content;
     }
   },
-  mounted () {
-    this.initData()
+  watch: {
+    $route (newVal, oldVal) {
+      this.initData()
+    }
+  },
+  created () {
   },
   methods: {
     initData () {
-      
+      const { article }  = this.$route.query
+      if (article) {
+        this.article = Object.assign({}, this.article, JSON.parse(article))
+        this.isEdit = true
+      } else {
+        this.article = {
+          id:'',
+          title:'',
+          type:'',
+          content:''
+        }
+        this.isEdit = false
+      }
     },
     editArticle () {
       // 上传文章
-
       this.$refs.articleCreate.validate(valid=>{
-          if(valid){
-            this.showMessage({content:"是否创建改文章"}).then(res => {
-              if (res === 'confirm') {
-                this.createArticle()
-              }
-            })
-          }
+        if(valid){
+          this.showMessage({content:"是否创建改文章"}).then(res => {
+            if (res === 'confirm') {
+              this.operateArticle()
+            }
+          })
+        }
       })
     },
     cancel () {
-
     },
-    async createArticle () {
+    async updateArticle (data) {
+      await Http.post('/api/update/article', data, true).then(res => {
+        if (res.data.code === 200) {
+          this.$message({
+            showClose: true,
+            message: '更新成功',
+            type: 'success',
+            onClose: () => {
+              this.$router.go(-1)
+            }
+          });
+        } else {
+          this.$message({
+            showClose: true,
+            message: '更新失败',
+            type: 'error'
+          });
+        }
+      }).catch(err => {
+        this.$message({
+            showClose: true,
+            message: err.toString(err),
+            type: 'error'
+          });
+      })
+    },
+    async operateArticle () {
       let data = {
         contentToMark:this.markedToHtml,
         ...this.article
@@ -115,14 +156,27 @@ export default {
       NProgress.start()
       this.btnText = "更新中"
       this.load = true
+      if (this.isEdit) {
+        await this.updateArticle(data)
+      } else {
+        await this.createArticle(data)
+      }
+      this.btnText = "立刻更新"
+      this.load = false
+      NProgress.done()
+    },
+    async createArticle (data) {
       await Http.post('/api/create/article', data, true).then(res => {
-        this.btnText = "立刻更新"
-        this.load = false
         if (res.data.code === 200) {
           this.$message({
             showClose: true,
             message: '创建成功',
-            type: 'success'
+            type: 'success',
+            onClose: () => {
+              this.$router.push({
+                path: '/article/list'
+              })
+            }
           });
         } else {
           this.$message({
@@ -131,8 +185,13 @@ export default {
             type: 'error'
           });
         }
-         NProgress.done()
-      }) 
+      }).catch(err => {
+        this.$message({
+            showClose: true,
+            message: err.toString(err),
+            type: 'error'
+          });
+      })
     },
     showMessage (data) {
       const {content, type="warning", title="提示", cancel="取消", sure="确定", cancelText="取消成功", sureText="确认成功"} = data

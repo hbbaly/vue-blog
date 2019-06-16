@@ -35,5 +35,9 @@
     } else {
       return Article.find().addCreateAt().sort({_id: -1}).exec()
     }
+  },
+  updateArticle (params) {
+    const { _id, title, content,type,contentToMark } = params 
+    return Article.update({_id},{$set:{title, type, content,contentToMark }}).exec()
   }
  }

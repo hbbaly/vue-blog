@@ -1,6 +1,6 @@
 # vue-blog
 
->Vue2 + Vue-router + Axios + Vuex + Node + Express + MongoDB + Webpack搭建blog
+>Vue2 + Vue-router + Axios + Vuex + Node + Express + MongoDB + Webpack 搭建博客
 
 ## Run Setup
 

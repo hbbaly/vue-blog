@@ -30,7 +30,7 @@
       width="100">
       <template slot-scope="scope">
         <el-button @click="handleClick(scope.row)" type="text" size="small">查看</el-button>
-        <el-button type="text" size="small">编辑</el-button>
+        <el-button type="text" size="small" @click="handleArticle(scope.row)">编辑</el-button>
       </template>
     </el-table-column>
   </el-table>
@@ -39,12 +39,7 @@
 <script>
 import Http from '@/utils/http'
   export default {
-    methods: {
-      handleClick(row) {
-        console.log(row);
-      }
-    },
-
+    name: 'ArticleList',
     data() {
       return {
         tableData: []
@@ -64,7 +59,33 @@ import Http from '@/utils/http'
             this.tableData = [...this.tableData, ...res.data.data[0]]
           }
         })
+      },
+      handleClick (row) {
+        console.log(row);
+        // 跳转文章详情页面
+      },
+      handleArticle (row) {
+        // 跳转到编辑文章页面
+        this.$router.push(
+          {
+            path: '/article/create',
+            query: {
+              article: JSON.stringify(row)
+            }
+          }
+        )
       }
     }
   }
 </script>
+<style>
+.el-table tr.el-table__row td{
+
+}
+/* .el-table tr.el-table__row td .cell{
+  display: -webkit-box ;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+} */
+</style>
