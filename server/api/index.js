@@ -22,5 +22,18 @@
   },
   createArticle: (params) => {
     return Article.create(params).exec()
+  },
+  getArticle: (params) => {
+    const {page, limit} = params
+    let skip
+    if (page && limit) {
+      skip = (page -1) * limit
+      return Promise.all([
+        Article.find().addCreateAt().sort({_id:-1}).skip(skip * 1).limit(limit * 1).exec(),
+        Article.count().exec()
+      ])
+    } else {
+      return Article.find().addCreateAt().sort({_id: -1}).exec()
+    }
   }
  }

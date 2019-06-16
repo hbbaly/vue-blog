@@ -487,3 +487,391 @@ Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgx
 Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o req.headers['authorization']
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o token
 { name: 'hbb', exp: 1561181280, iat: 1560576480 } 'jwt.decode(token, process.env.JWT_SECRET)'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o req.headers['authorization']
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o token
+{ name: 'hbb', exp: 1561181280, iat: 1560576480 } 'jwt.decode(token, process.env.JWT_SECRET)'
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o req.headers['authorization']
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o token
+{ name: 'hbb', exp: 1561181280, iat: 1560576480 } 'jwt.decode(token, process.env.JWT_SECRET)'
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o req.headers['authorization']
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o token
+{ name: 'hbb', exp: 1561181280, iat: 1560576480 } 'jwt.decode(token, process.env.JWT_SECRET)'
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o req.headers['authorization']
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o token
+{ name: 'hbb', exp: 1561181280, iat: 1560576480 } 'jwt.decode(token, process.env.JWT_SECRET)'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o req.headers['authorization']
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiaGJiIiwiZXhwIjoxNTYxMTgxMjgwLCJpYXQiOjE1NjA1NzY0ODB9.TekFcXmC_dpasl-JdopuGqLvl4pcZjvtdSisLUuAQ0o token
+{ name: 'hbb', exp: 1561181280, iat: 1560576480 } 'jwt.decode(token, process.env.JWT_SECRET)'
+hsbdhbcsdgchgdcgd=================
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+[ [ { _id: 5d0604143d3dbb2c0cef2aa1,
+      contentToMark: '<p>wdewd</p>\n',
+      title: 'wd',
+      type: 'node' },
+    { _id: 5d0603bc3d3dbb2c0cef2aa0,
+      contentToMark: '<p>ddfefvvsdcd</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0602913d3dbb2c0cef2a9e,
+      contentToMark: '<h1 id="测试">测试</h1>\n',
+      title: '测试',
+      type: 'vue' },
+    { _id: 5d050e7d7319502088d26fc6,
+      contentToMark: '<h1 id="测试">测试</h1>\n<p>测试</p>\n',
+      title: '测试',
+      type: 'node' },
+    { _id: 5d04fbfb7319502088d26fc5,
+      contentToMark:
+       '<h1 id="测试">测试</h1>\n<h2 id="测试-1">测试</h2>\n<h3 id="测试-2">测试</h3>\n<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>\n',
+      title: '测试',
+      type: 'vue' } ],
+  6 ] 'hbb'
+[ [ { _id: 5d0604143d3dbb2c0cef2aa1,
+      contentToMark: '<p>wdewd</p>\n',
+      title: 'wd',
+      type: 'node' },
+    { _id: 5d0603bc3d3dbb2c0cef2aa0,
+      contentToMark: '<p>ddfefvvsdcd</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0602913d3dbb2c0cef2a9e,
+      contentToMark: '<h1 id="测试">测试</h1>\n',
+      title: '测试',
+      type: 'vue' },
+    { _id: 5d050e7d7319502088d26fc6,
+      contentToMark: '<h1 id="测试">测试</h1>\n<p>测试</p>\n',
+      title: '测试',
+      type: 'node' },
+    { _id: 5d04fbfb7319502088d26fc5,
+      contentToMark:
+       '<h1 id="测试">测试</h1>\n<h2 id="测试-1">测试</h2>\n<h3 id="测试-2">测试</h3>\n<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>\n',
+      title: '测试',
+      type: 'vue' } ],
+  6 ] 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+[ [ { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' } ],
+  6 ] 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+{ page: '1', limit: '10' }
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+[ [ { _id: 5d0604143d3dbb2c0cef2aa1,
+      contentToMark: '<p>wdewd</p>\n',
+      title: 'wd',
+      type: 'node' },
+    { _id: 5d0603bc3d3dbb2c0cef2aa0,
+      contentToMark: '<p>ddfefvvsdcd</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0602913d3dbb2c0cef2a9e,
+      contentToMark: '<h1 id="测试">测试</h1>\n',
+      title: '测试',
+      type: 'vue' },
+    { _id: 5d050e7d7319502088d26fc6,
+      contentToMark: '<h1 id="测试">测试</h1>\n<p>测试</p>\n',
+      title: '测试',
+      type: 'node' },
+    { _id: 5d04fbfb7319502088d26fc5,
+      contentToMark:
+       '<h1 id="测试">测试</h1>\n<h2 id="测试-1">测试</h2>\n<h3 id="测试-2">测试</h3>\n<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>\n',
+      title: '测试',
+      type: 'vue' } ],
+  6 ] 'hbb'
+[ [ { _id: 5d0604143d3dbb2c0cef2aa1,
+      contentToMark: '<p>wdewd</p>\n',
+      title: 'wd',
+      type: 'node' },
+    { _id: 5d0603bc3d3dbb2c0cef2aa0,
+      contentToMark: '<p>ddfefvvsdcd</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0602913d3dbb2c0cef2a9e,
+      contentToMark: '<h1 id="测试">测试</h1>\n',
+      title: '测试',
+      type: 'vue' },
+    { _id: 5d050e7d7319502088d26fc6,
+      contentToMark: '<h1 id="测试">测试</h1>\n<p>测试</p>\n',
+      title: '测试',
+      type: 'node' },
+    { _id: 5d04fbfb7319502088d26fc5,
+      contentToMark:
+       '<h1 id="测试">测试</h1>\n<h2 id="测试-1">测试</h2>\n<h3 id="测试-2">测试</h3>\n<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>\n',
+      title: '测试',
+      type: 'vue' } ],
+  6 ] 'hbb'
+[ [ { _id: 5d0604143d3dbb2c0cef2aa1,
+      contentToMark: '<p>wdewd</p>\n',
+      title: 'wd',
+      type: 'node' },
+    { _id: 5d0603bc3d3dbb2c0cef2aa0,
+      contentToMark: '<p>ddfefvvsdcd</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0602913d3dbb2c0cef2a9e,
+      contentToMark: '<h1 id="测试">测试</h1>\n',
+      title: '测试',
+      type: 'vue' },
+    { _id: 5d050e7d7319502088d26fc6,
+      contentToMark: '<h1 id="测试">测试</h1>\n<p>测试</p>\n',
+      title: '测试',
+      type: 'node' },
+    { _id: 5d04fbfb7319502088d26fc5,
+      contentToMark:
+       '<h1 id="测试">测试</h1>\n<h2 id="测试-1">测试</h2>\n<h3 id="测试-2">测试</h3>\n<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>\n',
+      title: '测试',
+      type: 'vue' } ],
+  6 ] 'hbb'
+[ [ { _id: 5d0604143d3dbb2c0cef2aa1,
+      contentToMark: '<p>wdewd</p>\n',
+      title: 'wd',
+      type: 'node' },
+    { _id: 5d0603bc3d3dbb2c0cef2aa0,
+      contentToMark: '<p>ddfefvvsdcd</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0603393d3dbb2c0cef2a9f,
+      contentToMark: '<p>ceshi</p>\n',
+      title: 'ceshi',
+      type: 'node' },
+    { _id: 5d0602913d3dbb2c0cef2a9e,
+      contentToMark: '<h1 id="测试">测试</h1>\n',
+      title: '测试',
+      type: 'vue' },
+    { _id: 5d050e7d7319502088d26fc6,
+      contentToMark: '<h1 id="测试">测试</h1>\n<p>测试</p>\n',
+      title: '测试',
+      type: 'node' },
+    { _id: 5d04fbfb7319502088d26fc5,
+      contentToMark:
+       '<h1 id="测试">测试</h1>\n<h2 id="测试-1">测试</h2>\n<h3 id="测试-2">测试</h3>\n<p>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</p>\n',
+      title: '测试',
+      type: 'vue' } ],
+  6 ] 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次' } ],
+  1 ] 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'
+[ [ { _id: 5d0623f40295f63a5c451893,
+      contentToMark: '<p>三从四德成熟的尝试多次</p>\n',
+      title: '测试',
+      type: 'node',
+      content: '三从四德成熟的尝试多次',
+      created_at: '2019-06-16 19:11:48' } ],
+  1 ] 'hbb'

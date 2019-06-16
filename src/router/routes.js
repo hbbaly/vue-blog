@@ -3,6 +3,7 @@ import Register from '@/view/user/register/IndexView'
 import Login from '@/view/user/login/IndexView'
 import User from '@/view/user/index/IndexView'
 import CreateArticle from '@/view/user/article/create/IndexView'
+import ArticleList from '@/view/user/article/list/IndexView'
 export default [
   {
     path:'/',
@@ -14,7 +15,11 @@ export default [
     children: [
       {
         path: '/article/create',
-        component:CreateArticle
+        component: CreateArticle
+      },
+      {
+        path: '/article/list',
+        component: ArticleList
       }
     ]
   },
