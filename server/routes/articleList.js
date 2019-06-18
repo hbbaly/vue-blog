@@ -4,7 +4,6 @@ const api = require('../api/index')
 const checkToken = require('../utils/checkToken')
 router.post('/get/article',checkToken, (req, res, next) => {
   api.getArticle(req.body).then(response => {
-    console.log(response,'hbb')
     res.send({
       code: 200,
       message: 'ok',
@@ -16,6 +15,5 @@ router.post('/get/article',checkToken, (req, res, next) => {
       message: err.toString()
     })
   })
-  
 })
 module.exports = router

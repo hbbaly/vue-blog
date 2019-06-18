@@ -8,6 +8,7 @@ const login = require('./routes/login')
 const user = require('./routes/user')
 const createArticle = require('./routes/createArticle')
 const articleList = require('./routes/articleList')
+const createTag = require('./routes/createTag')
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // 跨域
@@ -23,6 +24,7 @@ app.use('/api', login)
 app.use('/api', user)
 app.use('/api', createArticle)
 app.use('/api', articleList)
+app.use('/api', createTag)
 app.set('port', process.env.PORT || 3009);
 app.listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));

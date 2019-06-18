@@ -2373,3 +2373,37 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-16T14_56_05_753Z-debug.log
+TypeError: Cannot read property 'exp' of null
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/checkToken.js:9:23)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:635:15
+TypeError: Cannot read property 'exp' of null
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/checkToken.js:9:23)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:284:7
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:635:15

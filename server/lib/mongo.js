@@ -44,3 +44,7 @@ exports.User = mongolass.model('User',{
   name: {type: 'string'},
   password:{type:'string'}
 })
+// 分类
+exports.Classify = mongolass.model('Classify',{
+  classify:{type:'string'}
+})

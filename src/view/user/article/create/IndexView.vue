@@ -90,7 +90,14 @@ export default {
       this.initData()
     }
   },
+  // beforeRouteEnter (to, from, next) {
+  //   // ...
+  //   next(vm => {
+  //     vm.initData()
+  //   })
+  // },
   created () {
+    this.initData()
   },
   methods: {
     initData () {

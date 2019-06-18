@@ -1,4 +1,4 @@
- const {Article, SetBannerList, User} = require('../lib/mongo')
+ const {Article, SetBannerList, User, Classify} = require('../lib/mongo')
  
  module.exports = {
   // 根据classify获取所有文章
@@ -39,5 +39,8 @@
   updateArticle (params) {
     const { _id, title, content,type,contentToMark } = params 
     return Article.update({_id},{$set:{title, type, content,contentToMark }}).exec()
+  },
+  setClassify (params) {
+    return Classify.create(params).exec()
   }
  }
