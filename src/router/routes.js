@@ -23,7 +23,7 @@ export default [
         component: ArticleList
       },
       {
-        path: '/create/tag',
+        path: '/article/tag',
         component: Tag
       }
     ]

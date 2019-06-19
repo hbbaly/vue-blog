@@ -43,7 +43,14 @@
   setClassify (params) {
     return Classify.create(params).exec()
   },
-  searchClassify (params) {
+  searchClassify (params = {}) {
     return Classify.find(params).exec()
+  },
+  updateClassify (_id, params) {
+    return Classify.update({_id:_id},{$set:params}).exec()
+  },
+  // remove Classify
+  removeClassify (params) {
+    return Classify.remove(params).exec()
   }
  }
