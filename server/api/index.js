@@ -42,5 +42,8 @@
   },
   setClassify (params) {
     return Classify.create(params).exec()
+  },
+  searchClassify (params) {
+    return Classify.find(params).exec()
   }
  }

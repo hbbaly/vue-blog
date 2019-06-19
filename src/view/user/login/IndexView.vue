@@ -84,7 +84,6 @@ export default {
             }
             Http.post('/api/user/login', data).then(res => {
               this.open(res.data.message)
-              console.log(res)
               store.saveWithKey('localStorage', 'token', res.data.data.token)
               if (res.data.code === 200) {
                 this.$router.push({

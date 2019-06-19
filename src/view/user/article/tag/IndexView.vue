@@ -12,6 +12,13 @@
   </el-col>
 </el-row>
 <el-button class="ui-btn" type="primary" :loading="loading" @click="addTag">{{ btnText }}</el-button>
+<el-tag
+  v-for="tag in tags"
+  :key="tag._id"
+  closable
+  :type="info">
+  {{tag.classify}}
+</el-tag>
   </div>
 </template>
 <script>
@@ -22,8 +29,14 @@ import Http from '@/utils/http'
         restaurants: [],
         state: '',
         btnText: '添加',
-        loading: false
+        loading: false,
+        tags: [
+        ]
       };
+    },
+    mounted() {
+      this.restaurants = this.loadAll();
+      this.getAllTag()
     },
     methods: {
       addTag () {
@@ -33,6 +46,23 @@ import Http from '@/utils/http'
           this.loading = false
           this.btnText = '添加'
           this.state = ''
+        })
+      },
+      getAllTag () {
+        Http.post('/api/get/all/tag',{}).then(res => {
+          if (res.data.code === 200) {
+            this.tags = res.data.data
+          } else {
+            this.$message({
+              message: res.data.message,
+              type: 'warning'
+            });
+          }
+        }).catch( err => {
+          this.$message({
+              message: err.toString(),
+              type: 'warning'
+            });
         })
       },
       querySearch(queryString, cb) {
@@ -65,9 +95,6 @@ import Http from '@/utils/http'
       handleSelect(item) {
         console.log(item);
       }
-    },
-    mounted() {
-      this.restaurants = this.loadAll();
     }
   }
 </script>
@@ -79,5 +106,8 @@ import Http from '@/utils/http'
   .inline-input{
     display: block;
     margin: 30px auto;
+  }
+  .el-tag{
+    margin: 20px 20px 0;
   }
 </style>

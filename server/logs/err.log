@@ -2407,3 +2407,792 @@ TypeError: Cannot read property 'exp' of null
     at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
     at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
     at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:635:15
+Unhandled rejection ReferenceError: cpnsole is not defined
+    at api.searchClassify.then.response (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:27:5)
+    at tryCatcher (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:699:18)
+    at _drainQueueStep (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
+    at _drainQueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_28_785Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_33_931Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_39_050Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_44_191Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_49_343Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_54_450Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_29_59_674Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_04_748Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_09_897Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_15_065Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_20_221Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_25_341Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_30_432Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_35_553Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_40_765Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_45_856Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_50_989Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_30_56_219Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_01_263Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_06_413Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_11_606Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_16_691Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_21_867Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_27_041Z-debug.log
+/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29
+}).catch(err => {
+        ^
+
+TypeError: router.post(...).catch is not a function
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/createTag.js:29:9)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/app.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! server@1.0.0 start: `cross-env NODE_ENV=production node app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the server@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_32_121Z-debug.log
