@@ -27,7 +27,7 @@
        <el-row :gutter="20">
       <el-col :xs="{span:20,offset:2}" :sm="{span:18,offset:3}" :md="{span:18,offset:3}" :lg="{span:18,offset:3}" :xl="{span:18,offset:3}">
       <el-form-item>
-        <el-button type="primary" @click="submitForm('ruleForm')">提交</el-button>
+        <el-button type="primary" @click="submitForm('ruleForm')"> {{ btnText }}</el-button>
         <el-button @click="resetForm('ruleForm')">重置</el-button>
       </el-form-item>
        </el-col>
@@ -38,7 +38,7 @@
   </div>
 </template>
 <script>
-import axios from 'axios'
+import Http from '@/utils/http'
 export default {
   name: "Register",
   data() {
@@ -75,11 +75,13 @@ export default {
         }
       };
       return {
+        isRegister: true,
         ruleForm: {
           pass: '',
           checkPass: '',
           name: ''
         },
+        btnText: '注册',
         rules: {
           pass: [
             { validator: validatePass, trigger: 'blur' }
@@ -93,6 +95,11 @@ export default {
         }
       };
     },
+    created () {
+      if (this.$route.query.type && this.$route.query.type === 'change') {
+        this.isRegister = false
+      }
+    },
     methods: {
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {
@@ -101,11 +108,48 @@ export default {
               name: this.ruleForm.name,
               password: this.ruleForm.checkPass
             }
-            axios.post('/api/user/register',data).then(res => {
-              console.log(res, 'res')
-            })
+            if (this.isRegister) {
+              Http.post('/api/user/register',data).then(res => {
+                if (res.data.code === 200) {
+                  // this.$message({
+                  //   message: res.data.message,
+                  //   type: 'warning'
+                  // });
+                  this.$router.push({
+                    path: '/user'
+                  })
+                } else {
+                  this.$message({
+                    message: res.data.message,
+                    type: 'warning'
+                  });
+                }
+              }).catch(err => {
+                  this.$message({
+                    message: err,
+                    type: 'warning'
+                  });
+              })
+            } else {
+              Http.post('/api/change/pass',data, true).then(res => {
+                console.log(res, 'res')
+                if (res.data.code === 200) {
+                  // this.$message({
+                  //   message: res.data.message,
+                  //   type: 'warning'
+                  // });
+                  this.$router.push({
+                    path: '/user'
+                  })
+                } else {
+                  this.$message({
+                    message: res.data.message,
+                    type: 'warning'
+                  });
+                }
+              })
+            }
           } else {
-            console.log('error submit!!');
             return false;
           }
         });

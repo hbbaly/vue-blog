@@ -13,12 +13,17 @@
   getBanner: (params) => {
     return SetBannerList.find().exec()
   },
+
   registerUser: (params) => {
     return User.create(params).exec()
   },
   getUserLogin: (params) => {
     const {name} = params
     return User.find({name}).exec()
+  },
+  changePass (params) {
+    const {name} = params
+    return User.update({name},{$set:params}).exec()
   },
   createArticle: (params) => {
     return Article.create(params).exec()

@@ -3196,3 +3196,37 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/hanbingbing/.npm/_logs/2019-06-19T01_31_32_121Z-debug.log
+TypeError: User.ipdate is not a function
+    at Object.changePass (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:26:17)
+    at router.post (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/register.js:40:7)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/checkToken.js:16:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
+TypeError: User.ipdate is not a function
+    at Object.changePass (/Users/hanbingbing/Desktop/sites/vue-blog/server/api/index.js:26:17)
+    at router.post (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/register.js:40:7)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/utils/checkToken.js:16:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:335:12)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:275:10)
+    at Function.handle (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:174:3)
+    at router (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:317:13)
