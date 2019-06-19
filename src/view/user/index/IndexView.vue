@@ -33,8 +33,7 @@
           <span>设置</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="changePass">更改密码</el-menu-item>
-          <el-menu-item index="logout">选项登陆</el-menu-item>
+          <el-menu-item index="changepass">更改密码</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>

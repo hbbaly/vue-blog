@@ -37,7 +37,12 @@ router.post('/user/register', (req, res, next) => {
   })
 })
 router.post('/change/pass', checkToken, (req, res, next) => {
-  api.changePass(req.body).then(response => {
+  let encodePassword = sha1(password),
+      user = {
+        name,
+        password: encodePassword
+      }
+  api.changePass(user).then(response => {
     if (response.result.ok && response.result.n > 0){
       res.send({
         code: 200,
