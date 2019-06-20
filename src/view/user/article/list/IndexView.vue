@@ -105,6 +105,9 @@ import Http from '@/utils/http'
   }
 </script>
 <style>
+.page-article-list{
+  margin-top: 30px;
+}
 .el-table tr.el-table__row td{
 
 }

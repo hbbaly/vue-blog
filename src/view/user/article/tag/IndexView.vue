@@ -150,6 +150,9 @@ import Http from '@/utils/http'
   }
 </script>
 <style lang="css">
+.page-edit-tag{
+  margin-top: 30px;
+}
   .ui-btn{
     display: block;
     margin: 50px auto;

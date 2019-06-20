@@ -9132,3 +9132,8 @@ Express server listening on port 3009
 { page: '1', limit: '2' }
 { page: '1', limit: '2' }
 { page: '1', limit: '2' }
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009

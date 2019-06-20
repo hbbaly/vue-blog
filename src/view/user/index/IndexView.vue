@@ -38,7 +38,7 @@
       </el-submenu>
     </el-menu>
   </el-col>
-  <el-col :span="18">
+  <el-col :span="16" :offset="1">
     <router-view></router-view>
   </el-col>
 

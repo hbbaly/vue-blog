@@ -48,37 +48,8 @@ npm run build --report
 - 首页完善各个页面入口
 - 待添加......
 
-## 功能展示展示
-**没有太过在意样式,后期计划会进行样式大修改**
-### 首页
-http://localhost:8080/
-![首页](./static/img/1.png)
 
-### 文章详情
-http://localhost:8080/user/article/detail/${_id}
-![首页](./static/img/2.png)
-
-### 创建文章
-http://localhost:8080/article/create
-![首页](./static/img/3.png)
-### 文章列表
-http://localhost:8080/article/list
-![首页](./static/img/4.png)
-### 标签
-http://localhost:8080/article/tag
-![首页](./static/img/5.png)
-### 更改密码
-http://localhost:8080/article/tag
-![首页](./static/img/6.png)
-
-### 登陆
-http://localhost:8080/article/tag
-![首页](./static/img/7.png)
-
-### 注册
-http://localhost:8080/article/tag
-![首页](./static/img/8.png)
-# 目录结构
+## 目录结构
 
 ```
 │  .babelrc
@@ -189,5 +160,35 @@ http://localhost:8080/article/tag
 │  │   │   ├─login
 │  │   │   ├─register
 ```  
+
+## 功能展示展示
+**没有太过在意样式,后期计划会进行样式大修改**
+### 首页
+http://localhost:8080/
+![首页](./static/img/1.png)
+
+
+### 创建文章
+http://localhost:8080/article/create
+![首页](./static/img/3.png)
+### 文章列表
+http://localhost:8080/article/list
+![首页](./static/img/4.png)
+### 标签
+http://localhost:8080/article/tag
+![首页](./static/img/5.png)
+### 文章详情
+http://localhost:8080/user/article/detail/${_id}
+![首页](./static/img/2.png)
+### 登陆
+http://localhost:8080/article/tag
+![首页](./static/img/7.png)
+
+### 注册
+http://localhost:8080/article/tag
+![首页](./static/img/8.png)
+
+
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 more info, contact with 1422699902@qq.com
