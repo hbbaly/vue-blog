@@ -6,7 +6,7 @@ import CreateArticle from '@/view/user/article/create/IndexView'
 import ArticleList from '@/view/user/article/list/IndexView'
 import Tag from '@/view/user/article/tag/IndexView'
 import ChangePass from '@/view/user/changepass/IndexView'
-import Center from '@/view/user/center/IndexView'
+import Detail from '@/view/user/article/detail/IndexView'
 import NotFound from '@/view/notfound/NotFoundView'
 export default [
   {
@@ -18,12 +18,7 @@ export default [
     component: User,
     children: [
       {
-        path:'',redirect: {name:'Center'}
-      },
-      {
-        name: 'Center',
-        path: '/center',
-        component: Center
+        path:'',redirect: {name:'CenArticleCreateter'}
       },
       {
         name: 'ArticleCreate',
@@ -51,6 +46,10 @@ export default [
   {
     path: '/user/login',
     component: Login
+  },
+  {
+    path: '/user/article/detail/:_id',
+    component: Detail
   },
   {
     name: 'NotFound',

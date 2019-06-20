@@ -63,6 +63,9 @@ import Http from '@/utils/http'
       handleClick (row) {
         console.log(row);
         // 跳转文章详情页面
+        this.$router.push({
+          path: `/user/article/detail/${row._id}`
+        })
       },
       handleArticle (row) {
         // 跳转到编辑文章页面

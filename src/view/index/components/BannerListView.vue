@@ -1,7 +1,7 @@
 <template>
   <div class="block">
     <el-carousel height="300px" :interval="40000" type="card" :autoplay="false">
-      <el-carousel-item v-for="item in BannerList" :key="item.title">
+      <el-carousel-item v-for="item in BannerList" :key="item.id">
         <el-link :href="item.url" target="_blank">
           <el-image :src="item.img" alt="" fit="contain" ></el-image>
         </el-link>

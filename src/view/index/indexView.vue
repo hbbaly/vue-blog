@@ -2,16 +2,19 @@
   <div class="page page-index">
     <div class="container" v-loading="loading">
       <banner-list :banner-list="BannerList"/>
+      <article-list :list="article" @jumpDetail="jumpDetail"/>
     </div>
   </div>
 </template>
 <script>
-import axios from 'axios'
+import Http from '@/utils/http'
 import BannerList from './components/BannerListView'
+import ArticleList from './components/ArticleListVIew'
 export default {
   name: 'Index',
   components: {
-    BannerList
+    BannerList,
+    ArticleList
   },
   data () {
     return {
@@ -30,17 +33,38 @@ export default {
           description: 'Vue.js环境的搭建'
         }
       ],
-      BannerList: []
+      BannerList: [],
+      article: [],
+      pagr:1,
+      limit: 10
     }
   },
   async mounted () {
-    await axios.get('/api/get/banner').then(res => {
+    await Http.get('/api/get/banner').then(res => {
       if (res.data.code === 200) this.BannerList = res.data.data.slice(0,3)
     })
-    await axios.get('/api/get/topics').then(res => {
-    })
+    let data = {
+      page: this.page,
+      limit: this.limit
+    }
+    await Http.post('/api/get/article', data, true).then(res => {
+      if (res.data.code === 200) {
+        this.article = [...this.article, ...res.data.data]
+      } else {
+        this.$message({
+          message: res.data.data.message,
+          type: 'warning'
+        });
+      }
+    })    
     this.loading = false
-
+  },
+  methods: {
+    jumpDetail (_id) {
+      this.$router.push({
+        path: `/user/article/detail/${_id}`
+      })
+    }
   }
 }
 </script>

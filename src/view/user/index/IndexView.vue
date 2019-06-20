@@ -12,10 +12,10 @@
       text-color="#fff"
       :router="isRouter"
       active-text-color="#ffd04b">
-      <el-menu-item index="user">
+      <!-- <el-menu-item index="user">
         <i class="el-icon-user"></i>
         <span slot="title">个人中心</span>
-      </el-menu-item>
+      </el-menu-item> -->
        <el-submenu index="article">
         <template slot="title">
           <i class="el-icon-menu"></i>
