@@ -56,13 +56,10 @@
     },
     methods: {
       handleOpen(key, keyPath) {
-        console.log(key, keyPath);
       },
       handleClose(key, keyPath) {
-        console.log(key, keyPath);
       },
       handleSelect (index, indexPath) {
-        console.log(index, indexPath, 'hbb')
         this.selectComponent(indexPath)
       },
       selectComponent (indexPath) {

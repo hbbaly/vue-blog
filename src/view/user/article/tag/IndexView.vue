@@ -145,7 +145,6 @@ import Http from '@/utils/http'
         ];
       },
       handleSelect(item) {
-        console.log(item);
       }
     }
   }

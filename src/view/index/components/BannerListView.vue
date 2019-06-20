@@ -21,7 +21,6 @@ export default {
   watch: {
     BannerList: {
       handler (newVal, oldVal) {
-        console.log(newVal, oldVal, 'ahbb')
       },
       deep: true
     }

@@ -24,7 +24,6 @@
     return Article.create(params).exec()
   },
   getArticle: (params) => {
-    console.log(params)
     const {page, limit} = params
     let skip
     if (page && limit) {
