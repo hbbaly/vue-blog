@@ -1,7 +1,9 @@
 <template>
+<div class="page page-article-list">
   <el-table
     :data="tableData"
     border
+    v-loading="loading"
     style="width: 100%">
     <el-table-column
       fixed
@@ -34,6 +36,15 @@
       </template>
     </el-table-column>
   </el-table>
+  <el-pagination
+    background
+    :page-size="limit"
+    :hide-on-single-page="value"
+    layout="prev, pager, next"
+    :total="total"
+    @current-change="changeCurrent">
+  </el-pagination>
+</div>
 </template>
 
 <script>
@@ -42,26 +53,32 @@ import Http from '@/utils/http'
     name: 'ArticleList',
     data() {
       return {
-        tableData: []
+        loading: true,
+        tableData: [],
+        limit: 2,
+        page: 1,
+        total: 0,
+        value: true
       }
     },
-    mounted () {
-      this.getArticle()
+    async mounted () {
+      await this.getArticle()
+      this.loading = false
     },
     methods: {
       getArticle () {
         let data = {
-          page: 1,
-          limit: 10
+          page: this.page,
+          limit: this.limit
         }
         Http.post('/api/get/article', data, true).then(res => {
           if (res.data.code === 200) {
-            this.tableData = [...this.tableData, ...res.data.data[0]]
+            this.tableData = res.data.data[0]
+            this.total = res.data.data[1]
           }
         })
       },
       handleClick (row) {
-        console.log(row);
         // 跳转文章详情页面
         this.$router.push({
           path: `/user/article/detail/${row._id}`
@@ -77,6 +94,12 @@ import Http from '@/utils/http'
             }
           }
         )
+      },
+      async changeCurrent (val) {
+        this.loading = true
+        this.page = val
+        await this.getArticle()
+        this.loading = false
       }
     }
   }
@@ -85,6 +108,9 @@ import Http from '@/utils/http'
 .el-table tr.el-table__row td{
 
 }
+.el-pagination{
+    margin: 20px auto;
+  }
 /* .el-table tr.el-table__row td .cell{
   display: -webkit-box ;
   -webkit-box-orient: vertical;

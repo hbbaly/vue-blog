@@ -18,7 +18,7 @@ export default [
     component: User,
     children: [
       {
-        path:'',redirect: {name:'CenArticleCreateter'}
+        path:'',redirect: {name:'ArticleCreate'}
       },
       {
         name: 'ArticleCreate',

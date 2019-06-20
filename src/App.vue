@@ -11,8 +11,8 @@ export default {
 </script>
 
 <style lang="css">
-
   #app{
-    height: 100%;
+    height: 100vh;
+    background: #f1f1f1;
   }
 </style>

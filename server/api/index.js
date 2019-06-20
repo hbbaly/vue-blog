@@ -1,12 +1,6 @@
  const {Article, SetBannerList, User, Classify} = require('../lib/mongo')
  
  module.exports = {
-  // 根据classify获取所有文章
-  getTopics: () => {
-    return Promise.all([
-        Article.find().exec()
-      ])
-    },
   setBanner: (params) => {
     return SetBannerList.create(params).exec()
   },
@@ -25,10 +19,12 @@
     const {name} = params
     return User.update({name},{$set:params}).exec()
   },
+
   createArticle: (params) => {
     return Article.create(params).exec()
   },
   getArticle: (params) => {
+    console.log(params)
     const {page, limit} = params
     let skip
     if (page && limit) {

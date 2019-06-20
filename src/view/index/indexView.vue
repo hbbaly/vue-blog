@@ -3,6 +3,14 @@
     <div class="container" v-loading="loading">
       <banner-list :banner-list="BannerList"/>
       <article-list :list="article" @jumpDetail="jumpDetail"/>
+      <el-pagination
+        background
+        :page-size="limit"
+        :hide-on-single-page="value"
+        layout="prev, pager, next"
+        :total="total"
+        @current-change="changeCurrent">
+      </el-pagination>
     </div>
   </div>
 </template>
@@ -19,6 +27,8 @@ export default {
   data () {
     return {
       loading: true,
+      total: 0,
+      value:true,
       bannerData: [
         {
           title: 'H5视屏播放器',
@@ -35,37 +45,59 @@ export default {
       ],
       BannerList: [],
       article: [],
-      pagr:1,
-      limit: 10
+      page:1,
+      limit: 2
     }
   },
   async mounted () {
-    await Http.get('/api/get/banner').then(res => {
-      if (res.data.code === 200) this.BannerList = res.data.data.slice(0,3)
-    })
-    let data = {
-      page: this.page,
-      limit: this.limit
-    }
-    await Http.post('/api/get/article', data, true).then(res => {
-      if (res.data.code === 200) {
-        this.article = [...this.article, ...res.data.data]
-      } else {
-        this.$message({
-          message: res.data.data.message,
-          type: 'warning'
-        });
-      }
-    })    
+    await this.getBanner()
+    await this.getArticle()   
     this.loading = false
   },
   methods: {
+    async getArticle () {
+      let data = {
+        page: this.page,
+        limit: this.limit
+      }
+      await Http.post('/api/get/article', data, true).then(res => {
+        if (res.data.code === 200) {
+          // this.article = [...this.article, ...res.data.data[0]]
+          this.article = res.data.data[0]
+          this.total = res.data.data[1]
+        } else {
+          this.$message({
+            message: res.data.data.message,
+            type: 'warning'
+          });
+        }
+      })
+    },
+    async getBanner () {
+      await Http.get('/api/get/banner').then(res => {
+        if (res.data.code === 200) this.BannerList = res.data.data.slice(0,3)
+      })
+    },
     jumpDetail (_id) {
       this.$router.push({
         path: `/user/article/detail/${_id}`
       })
+    },
+    async changeCurrent (val) {
+      this.loading = true
+      this.page = val
+      await this.getArticle()
+      this.loading = false
     }
   }
 }
 </script>
-style
+<style lang="css">
+  .page-index{
+    background: #f1f1f1;
+  }
+  .el-pagination{
+    width: 70%;
+    margin: 20px auto;
+  }
+</style>

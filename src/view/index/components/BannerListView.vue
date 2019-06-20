@@ -3,7 +3,7 @@
     <el-carousel height="300px" :interval="40000" type="card" :autoplay="false">
       <el-carousel-item v-for="item in BannerList" :key="item.id">
         <el-link :href="item.url" target="_blank">
-          <el-image :src="item.img" alt="" fit="contain" ></el-image>
+          <el-image :src="item.img" alt="" fit="cover" height="200" ></el-image>
         </el-link>
       </el-carousel-item>
     </el-carousel>
@@ -29,6 +29,10 @@ export default {
 }
 </script>
 <style>
+  .block{
+    width: 70%;
+    margin: 0 auto 30px;
+  }
   .el-carousel__item h3 {
     color: #475669;
     font-size: 14px;
