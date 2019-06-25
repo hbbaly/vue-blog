@@ -5935,3 +5935,176 @@ Express server listening on port 3009
 > cross-env NODE_ENV=production node app.js
 
 Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+hbb
+undefined 'hbb'
+hbb
+undefined 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+hbb
+链接chenggong
+undefined 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+hbb
+undefined 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+hbb
+{ Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Protocol._enqueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/lib/sql.js:16:12)
+    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:6:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage:
+   'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true } undefined 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+hbb
+{ Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Handshake.Sequence._packetToError (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    --------------------
+    at Protocol._enqueue (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at module.exports (/Users/hanbingbing/Desktop/sites/vue-blog/server/lib/sql.js:16:12)
+    at router.get (/Users/hanbingbing/Desktop/sites/vue-blog/server/routes/index.js:6:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at next (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/layer.js:95:5)
+    at /Users/hanbingbing/Desktop/sites/vue-blog/server/node_modules/_express@4.17.1@express/lib/router/index.js:281:22
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage:
+   'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true } undefined 'hbb'
+
+> server@1.0.0 start /Users/hanbingbing/Desktop/sites/vue-blog/server
+> cross-env NODE_ENV=production node app.js
+
+Express server listening on port 3009
+hbb
+null [ RowDataPacket { id: 1, name: '小明', date: 2016-04-22T07:25:33.000Z },
+  RowDataPacket { id: 2, name: '小王', date: 2016-04-20T07:25:47.000Z },
+  RowDataPacket { id: 3, name: '小丽', date: 2016-04-19T07:26:02.000Z },
+  RowDataPacket { id: 4, name: '小王', date: 2016-04-07T07:26:14.000Z },
+  RowDataPacket { id: 5, name: '小明', date: 2016-04-11T07:26:40.000Z },
+  RowDataPacket { id: 6, name: '小明', date: 2016-04-04T07:26:54.000Z } ] 'hbb'

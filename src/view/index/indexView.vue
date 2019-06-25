@@ -111,7 +111,8 @@ export default {
     }
   },
   async mounted () {
-    await this.getArticle()   
+    // await this.getArticle() 
+    Http.get('/api/get')  
     this.loading = false
   },
   methods: {

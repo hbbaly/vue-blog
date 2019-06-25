@@ -46,7 +46,6 @@
     "http-proxy-middleware": "^0.17.3",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "mongolass": "^2.4.5",
     "opn": "^5.1.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
