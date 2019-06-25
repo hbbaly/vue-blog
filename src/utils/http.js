@@ -24,6 +24,9 @@ function checkStatus (response) {
       return response
       // 如果不需要除了data之外的数据，可以直接 return response.data
     }
+    if (response.data.code === 401) {
+      // window.location.href= "http://localhost:8080/user/login"
+    }
     return response
   }
   // 异常状态下，把错误信息返回去

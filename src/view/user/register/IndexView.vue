@@ -6,6 +6,7 @@
 <script>
 import Http from '@/utils/http'
 import Info from '@/components/Info'
+import store from '@/utils/store'
 export default {
   name: "Register",
   components: {
@@ -22,6 +23,7 @@ export default {
       submitForm(data) {
         Http.post('/api/user/register',data).then(res => {
           if (res.data.code === 200) {
+            store.saveWithKey('localStorage', 'token', res.data.data.token)
             this.$router.push({
               path: '/user'
             })

@@ -8,12 +8,21 @@ module.exports = {
     sourceMap: isProduction
       ? config.build.productionSourceMap
       : config.dev.cssSourceMap,
-    extract: isProduction
+    extract: isProduction,
+    usePostCSS:true
   }),
   transformToRequire: {
     video: 'src',
     source: 'src',
     img: 'src',
     image: 'xlink:href'
-  }
+  },
+  postcss: [
+    require('autoprefixer')({
+      browsers: ['last 3 versions']
+    }),
+    // require('postcss-px2rem')({
+    //   remUnit: 75
+    // })
+  ]
 }

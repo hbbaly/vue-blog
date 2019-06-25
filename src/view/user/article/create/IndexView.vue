@@ -43,7 +43,9 @@
 import Http from '@/utils/http'
 import marked from 'marked';
 import hlj from 'highlight.js'
-import  'highlight.js/styles/atom-one-dark.css'
+// import  'highlight.js/styles/atom-one-dark.css'
+import javascript from 'highlight.js/lib/languages/javascript';
+import 'highlight.js/styles/monokai-sublime.css';
 import NProgress from 'nprogress'
 export default {
   name: 'CreateArticle',
@@ -79,7 +81,14 @@ export default {
       marked.setOptions({
         highlight: function (code) {
         return hlj.highlightAuto(code).value;
-        }
+        },
+        gfm: true,
+        tables: true,
+        breaks: false,
+        pedantic: false,
+        sanitize: false,
+        smartLists: true,
+        smartypants: false
       });
       content = marked(this.article.content)
       return content;
