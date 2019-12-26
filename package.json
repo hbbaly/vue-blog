@@ -13,7 +13,7 @@
     "@better-scroll/core": "^2.0.0-alpha.15",
     "@better-scroll/observe-dom": "^2.0.0-alpha.15",
     "@better-scroll/pull-down": "^2.0.0-alpha.15",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "element-ui": "^2.9.1",
     "highlight.js": "^9.10.0",
     "jsonwebtoken": "^8.5.1",
