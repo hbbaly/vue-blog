@@ -1,52 +1,16 @@
 <template lang="html">
-  <el-row>
-    <el-col :span="24">
-      <el-form ref="articleCreate" :model="article" :rules="createRules"  v-loading="listLoading">
-        <el-row style="margin-top:20px">
-          <el-col :span='10' :push="1">
-            <el-form-item label="文章标题" label-width="90px" prop="title">
-              <el-input v-model="article.title" style="width:260px" placeholder="请在此处输入标题"></el-input>
-            </el-form-item>
-          </el-col>
-      </el-row>
-      <el-row>
-      <el-col :span="24" :push="1">
-            <el-form-item label="所属分类" label-width="90px" prop="type">
-              <el-select v-model="article.type" placeholder="请选择分类">
-                <el-option  v-for="item in classifyList" :key="item.id" :label="item.type" :value="item"></el-option>
-            </el-select>
-            </el-form-item>
-          </el-col>
-      </el-row>
-        <el-row style="margin-top:20px">
-          <el-col :span='12'>
-            <!-- 编辑区 -->
-            <el-form-item class="show" prop="content" >
-               <el-input type="textarea" v-model="article.content" :rows="25" placeholder="请在此处编辑文章"></el-input>
-            </el-form-item>
-          </el-col>
-          <el-col :span='12'>
-            <!-- 展示区 -->
-            <div style="background:#fff;margin:0 0 0 20px;height:526px;overflow-y:auto;" v-html="markedToHtml" class="article"></div>
-          </el-col>
-        </el-row>
-        <el-form-item style="padding:20px 20px 0 0 " >
-          <el-button type="primary" style="float:right;" size='small' @click="editArticle" :loading="load">{{btnText}}</el-button>
-            <el-button style="float:right;margin-right:10px" size='small' @click="cancel" >返回</el-button>
-      </el-form-item>
-      </el-form>
-    </el-col>
-  </el-row>
+  <div class="page page-create">
+    
+  </div>
 </template>
 
 <script>
 import Http from '@/utils/http'
-import marked from 'marked';
-import hlj from 'highlight.js'
-// import  'highlight.js/styles/atom-one-dark.css'
-import javascript from 'highlight.js/lib/languages/javascript';
-import 'highlight.js/styles/monokai-sublime.css';
+import marked from '../../../../assets/js/marked';
+import SimpleMDE from "simplemde";
+import css from "simplemde/dist/simplemde.min.css";
 import NProgress from 'nprogress'
+let simplemde;
 export default {
   name: 'CreateArticle',
   data(){
@@ -76,37 +40,45 @@ export default {
     }
   },
   computed: {
-     markedToHtml(){
-       let content
-      marked.setOptions({
-        highlight: function (code) {
-        return hlj.highlightAuto(code).value;
-        },
-        gfm: true,
-        tables: true,
-        breaks: false,
-        pedantic: false,
-        sanitize: false,
-        smartLists: true,
-        smartypants: false
-      });
-      content = marked(this.article.content)
-      return content;
-    }
   },
   watch: {
     $route (newVal, oldVal) {
       this.initData()
     }
   },
-  // beforeRouteEnter (to, from, next) {
-  //   // ...
-  //   next(vm => {
-  //     vm.initData()
-  //   })
-  // },
   created () {
     this.initData()
+  },
+  mounted () {
+    this.$nextTick(() => {
+      simplemde = new SimpleMDE({
+        autoDownloadFontAwesome: false,
+        autosave: {
+          enabled: true,
+          uniqueId: "MyUniqueID",
+          delay: 1000
+        },
+        element: document.getElementById("editor"),
+        spellChecker: false,
+        previewRender: function(plainText) {
+          return marked(plainText); // Returns HTML from a custom parser
+        },
+        parsingConfig: {
+          allowAtxHeaderWithoutSpace: true,
+          strikethrough: false,
+          underscoresBreakWords: true
+        },
+        renderingConfig: {
+          renderingConfig: {
+            singleLineBreaks: false,
+            codeSyntaxHighlighting: true
+          }
+        }
+      });
+      simplemde.codemirror.on("change", () => {
+        this.article.content = simplemde.value();
+      });
+    });
   },
   methods: {
     initData () {
@@ -220,6 +192,83 @@ export default {
   }
 }
 </script>
-<style scoped>
-  
+<style lang="stylus">
+/* 代码块高亮 */
+.gutter pre
+  color #999
+pre
+  color: #525252
+  background: #ddd
+  .function .keyword,
+  .constant
+    color: #0092db
+  .keyword,
+  .attribute
+    color: #e96900
+  .number,
+  .literal
+    color: #AE81FF
+  .tag,
+  .tag .title,
+  .change,
+  .winutils,
+  .flow,
+  .lisp .title,
+  .clojure .built_in,
+  .nginx .title,
+  .tex .special
+    color: #2973b7
+  .class .title
+    color: #42b983
+  .symbol,
+  .symbol .string,
+  .value,
+  .regexp
+    color: $blue
+  .title
+    color: #A6E22E
+  .tag .value,
+  .string,
+  .subst,
+  .haskell .type,
+  .preprocessor,
+  .ruby .class .parent,
+  .built_in,
+  .sql .aggregate,
+  .django .template_tag,
+  .django .variable,
+  .smalltalk .class,
+  .javadoc,
+  .django .filter .argument,
+  .smalltalk .localvars,
+  .smalltalk .array,
+  .attr_selector,
+  .pseudo,
+  .addition,
+  .stream,
+  .envvar,
+  .apache .tag,
+  .apache .cbracket,
+  .tex .command,
+  .prompt
+    color: $blue
+  .comment,
+  .java .annotation,
+  .python .decorator,
+  .template_comment,
+  .pi,
+  .doctype,
+  .deletion,
+  .shebang,
+  .apache .sqbracket,
+  .tex .formula
+    color: #b3b3b3
+  .coffeescript .javascript,
+  .javascript .xml,
+  .tex .formula,
+  .xml .javascript,
+  .xml .vbscript,
+  .xml .css,
+  .xml .cdata
+    opacity: 0.5
 </style>
