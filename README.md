@@ -2,6 +2,8 @@
 
 >Vue2 + Vue-router + Axios + Vuex + Node + Express + MongoDB + Webpack 搭建博客
 
+blog样式已改进
+
 ## Run Setup
 
 注意：先启动MongoDB
@@ -165,28 +167,27 @@ npm run build --report
 **没有太过在意样式,后期计划会进行样式大修改**
 ### 首页
 http://localhost:8080/
-![首页](./static/img/1.png)
 
 
 ### 创建文章
 http://localhost:8080/article/create
-![首页](./static/img/3.png)
+
+
 ### 文章列表
 http://localhost:8080/article/list
-![首页](./static/img/4.png)
+
+
 ### 标签
 http://localhost:8080/article/tag
-![首页](./static/img/5.png)
+
 ### 文章详情
 http://localhost:8080/user/article/detail/${_id}
-![首页](./static/img/2.png)
+
 ### 登陆
 http://localhost:8080/article/tag
-![首页](./static/img/7.png)
 
 ### 注册
 http://localhost:8080/article/tag
-![首页](./static/img/8.png)
 
 
 
