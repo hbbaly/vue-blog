@@ -2,7 +2,6 @@ const express = require('express')
 const router = express.Router()
 const api = require('../api/index')
 router.post('/get/article/detail', (req, res, next) => {
-
   api.getArticleDetail(req.body).then(response => {
     if (response.length) {
       res.send({
