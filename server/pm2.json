@@ -1,0 +1,19 @@
+{
+  "name": "vue-blog",
+  "script": "npm",
+  "args": "start",
+  "watch": [
+      "dist"
+  ],
+  "ignore_watch": [
+      "node_modules",
+      "public",
+      "logs"
+  ],
+  "watch_options": {
+      "followSymlinks": false
+  },
+  "log_file": "./logs/combined.outerr.log",
+  "out_file": "./logs/out.log",
+  "err_file": "./logs/err.log"
+}
